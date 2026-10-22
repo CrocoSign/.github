@@ -1,6 +1,6 @@
 # CrocoSign
 
-Machine translation from Polish Sign Language (PJM) video to text. This is our engineering thesis at PJATK (Wojciech Sieńko and Rostyslav Kovalenko), published so that others can continue it. We no longer develop it: the repositories stay available read-only and issues are not monitored. Overview and results: [crocosign.github.io](https://crocosign.github.io).
+Machine translation from Polish Sign Language (PJM) video to text. This is our engineering thesis at PJATK ([Wojciech Sieńko](https://www.linkedin.com/in/wojciech-sie%C5%84ko/) and [Rostyslav Kovalenko](https://www.linkedin.com/in/rost-koff/)), published so that others can continue it. We no longer develop it: the repositories stay available read-only and issues are not monitored. Overview and results: [crocosign.github.io](https://crocosign.github.io).
 
 We built a dataset of 29 932 video-sentence pairs (about 25 h, 150 Deaf signers) from the [Open Repository of the PJM Corpus](https://www.korpuspjm.uw.edu.pl/) at the University of Warsaw, and trained three model architectures on it (16 checkpoints in total). On BLEURT, the metric we consider closest to human judgement, the best one is Uni-Sign fine-tuned from American Sign Language (OpenASL): 39.9 on signers seen in training and 35.7 on unseen signers. It is a research prototype, not a replacement for an interpreter.
 
