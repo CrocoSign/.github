@@ -34,4 +34,4 @@ Replace `clip.mp4` with your own PJM recording. Needs Python 3.10+ and uv.
 
 ## Use and licence
 
-The corpus recordings may be used for non-commercial purposes only, and so may anything derived from them, including our dataset and model weights. The code licence is stated in each repository.
+The corpus recordings are licensed under CC BY-SA 4.0, and so is everything we derived from them, including our dataset and model weights. The code licence is stated in each repository.
