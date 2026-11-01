@@ -2,7 +2,7 @@
 
 Machine translation from Polish Sign Language (PJM) video to text. This is our engineering thesis at PJATK ([Wojciech Sieńko](https://www.linkedin.com/in/wojciech-sie%C5%84ko/) and [Rostyslav Kovalenko](https://www.linkedin.com/in/rost-koff/)), published so that others can continue it. We no longer develop it: the repositories stay available read-only and issues are not monitored. Overview and results: [crocosign.github.io](https://crocosign.github.io).
 
-We built a dataset of 29 928 video-sentence pairs (about 25 h, 151 Deaf signers) from the [Open Repository of the PJM Corpus](https://www.korpuspjm.uw.edu.pl/) at the University of Warsaw, and trained three model architectures on it. The best single models are Uni-Sign fine-tuned from American Sign Language: 8.6 BLEU-4 and 42.4 BLEURT on signers seen in training, 6.1 and 38.2 on unseen signers; an ensemble of six reaches 10.4 BLEU-4. It is a research prototype, not a replacement for an interpreter.
+We built a dataset of 29 928 video-sentence pairs (about 25 h, 151 Deaf signers) from the [Open Repository of the PJM Corpus](https://www.korpuspjm.uw.edu.pl/) at the University of Warsaw, and trained three model architectures on it. The best single models are Uni-Sign fine-tuned from American Sign Language: on signers seen in training 8.6 BLEU-4 (How2Sign) and 42.4 BLEURT (OpenASL), on unseen signers 6.1 BLEU-4 and 38.2 BLEURT (OpenASL); an ensemble of six reaches 10.4 BLEU-4 on seen signers. It is a research prototype, not a replacement for an interpreter.
 
 ## Where to start
 
